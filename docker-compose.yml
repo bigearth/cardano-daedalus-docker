@@ -1,12 +1,12 @@
 version: '3'
 services:
   cardano-sl:
-    image: hcvst/cardano-sl:latest
+    image: cloneearth/cardano-sl:latest
     network_mode: "host"
     ports:
       - "8090:8090"
   daedalus:
-    depends_on: 
+    depends_on:
       - cardano-sl
     image: hcvst/cardano-daedalus:latest
     network_mode: "host"
