@@ -19,6 +19,6 @@ RUN git checkout master
 RUN . /home/cardano/.nix-profile/etc/profile.d/nix.sh &&\
     nix-build -A cardano-sl-static --cores 0 --max-jobs 2 --no-build-output --out-link master
 RUN . /home/cardano/.nix-profile/etc/profile.d/nix.sh &&\
-    nix-build release.nix -A connectScripts.stagingWallet -o connect-to-stagenet
+    nix-build release.nix -A connectScripts.mainnetWallet -o connect-to-network
 
-CMD ./connect-to-stagenet
+CMD ./connect-to-network
