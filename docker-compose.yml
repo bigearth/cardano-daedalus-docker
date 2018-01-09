@@ -14,3 +14,7 @@ services:
       DISPLAY: "$DISPLAY"
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
+  cardano-sl-explorer-static:
+    image: cloneearth/cardano-sl-explorer-static:latest
+    volumes:
+      - /tmp/explorer:~/
