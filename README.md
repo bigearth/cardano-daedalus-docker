@@ -26,3 +26,11 @@ These images have been tested on Digital Ocean Ubuntu 16.04 x64.
 ## Credits
 
 This project was originally forked from https://github.com/hcvst/cardano-daedalus-docker. Thanks to Hans Christian v. Stockhausen for his work on that repo.
+
+## Donations
+
+Really?! You're too kind! TYVM!
+
+Ada kindly accepted at: DdzFFzCqrhsx1EMGCSb2f3TzwKzpV4kFAdfibYmFfUe9SxXQcC8qs67DbKA1rLk2qLPTdPeZTU7eE9pmSS91JTnNQXofD3Wprz3Y9TRU
+
+To the moon!
